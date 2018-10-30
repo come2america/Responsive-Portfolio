@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <!---link css-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!---overall container holding page to help with width 100% to browers-->
+    <div id="container">
+        <!---tophalf of page to contain the header and the nav bar. this help with positioning and floats-->
+        <div id="topbody">
+
+            <div id="name-header">
+                <header>
+                    <h1>Yusuf Serunjogi</h1>
+                </header>
+            </div>
+            <!-- the navigation is a container for the links to be floated and positioned to the top half-->
+            <div id="navigation">
+                <!---buttons remove border and background color-->
+                <button>
+                    <a href="./index.html"> About</a>
+                </button>
+                <button>
+                    <a href="./portfolio.html">Portfolio</a>
+                </button>
+                <button>
+                    <a href="./contact.html"> Contact</a>
+                </button>
+            </div>
+        </div>
+
+
+        <div id="bottombody">
+            <section>
+                <div class=pagetitle>
+                    <h2>
+                        Contact
+                    </h2>
+                </div>
+                <form>
+                    <label> Name </label>
+                    <input class=fname type="text" name="fname"><br>
+                    <label>
+                        Email
+                    </label>
+                    <input class=email type="text" name="email"><br>
+                    <div>
+                        <label> Message </label>
+                        <textarea> How can I help </textarea>
+                    </div>
+                    <input class=submit type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+        <footer>
+            <p>
+                Copyright @
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
